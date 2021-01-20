@@ -43,7 +43,7 @@ class Test(object):
 
   @classmethod
   def printStats(cls):
-    print "{0} / {1} test(s) passed.".format(cls.passed, cls.numTests)
+    print("{0} / {1} test(s) passed.".format(cls.passed, cls.numTests))
 
   @classmethod
   def _hash(cls, x):
